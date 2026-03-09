@@ -1,4 +1,4 @@
-# Peronal Context Cards (ME.md)
+# Peronal Context Cards for AI Agents (ME.md)
 
 ---
 
