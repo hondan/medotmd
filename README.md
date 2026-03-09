@@ -109,3 +109,13 @@ The following is a quick one-liner that can be used at the beginning of conversa
 ```
 My context files are at [PATH]. Read AGENTS.md first, then ME.md, BOUNDARIES.md, and NOW.md. Use them silently to improve your responses.
 ```
+
+---
+
+
+## ME.md extraction ideas
+One thing to consider is to extract a draft version of your ME.md card from your most used agent/chatbot. To do so, you can provide the  ME_example.md card to your agent or Chatbot, and use a prompt similar to the following to extract your context into your ME.md
+
+```
+I am trying to create a context card (ME.md) for myself so that my AI agents can understand me better and know how to best work with me. I am providing an example file (ME_example.md) here for reference. With what you know about me during our interactions, please follow the format of the example file, and modify the content in this file with the knowledge you have about me, so that I can create my context card.  
+```
