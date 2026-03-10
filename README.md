@@ -1,11 +1,11 @@
-# Peronal Context Cards (ME.md)
+# Personal Context Cards (ME.md)
 
 ---
 
 ## Introduction
 This project is designed to provide AI agents and assistants with a portable context card about its user. It is inspired by Anthropic's recent Memory migration feature, which is just a prompt you can send to other chatbots to extract memory, and the CLAUDE.md and AGENTS.md files, which provides AI agents with context about the project or repository. However, in this agentic age, as many of us want to be able to use a variety of tools, we should also let our agents know a bit more about ourselves, and that is where the ME.md comes in.
 
-A successful implementation of these context cards will allow you to easily switch among verious agents you use while carrying your personal perferences with you, with each agent suggesting modifications to these cards based on your interactions. While each agent may not respond the same way, these personal context cards will allow you to move across various agentic systems fairly easily.
+A successful implementation of these context cards will allow you to easily switch among various agents you use while carrying your personal preferences with you, with each agent suggesting modifications to these cards based on your interactions. While each agent may not respond the same way, these personal context cards will allow you to move across various agentic systems fairly easily.
 
 ---
 
@@ -34,7 +34,7 @@ This is an optional file that can help the agents to understand some of your cur
 - Current projects and timelines
 
 ### BOUNDARIES.md
-This is designed to provide some guardrails to the agents and assistants so we can reduce the risk of these tools operating outside of their designed parameters or being prompt injected to cause harm (information discolure/machine infection, etc.) This file should never be updated by the AI agent, and can include the following:
+This is designed to provide some guardrails to the agents and assistants so we can reduce the risk of these tools operating outside of their designed parameters or being prompt injected to cause harm (information disclosure/machine infection, etc.) This file should never be updated by the AI agent, and can include the following:
 
 - General rules and restrictions on responses
 - Limitations on access of files and secrets
@@ -42,7 +42,7 @@ This is designed to provide some guardrails to the agents and assistants so we c
 - Limitations on access with tools and skills
 - Usage limitations for personal context
 - Agentic automation limitations
-- Update guidance for my peronsal context card
+- Update guidance for my personal context card
 
 ### AGENTS.md
 This is the classic agent card for AI agents, and the content here can be merged with existing AGENTS.md files. The idea here is to provide the AI agent with a parsing order of the contained Markdown files, set expectations, and if you want, provide it with instructions to update the NOW.md after interaction. Things we can include are:
@@ -60,7 +60,7 @@ With how these cards are designed, as you are interacting with an LLM agent, the
 ---
 
 ## Examples and security
-The repository contains examples of these files and can be used to contruct your own Personal Context Cards. Again, please keep your personal cards in a private repo, as you may expose some relatively private information.
+The repository contains examples of these files and can be used to construct your own Personal Context Cards. Again, please keep your personal cards in a private repo, as you may expose some relatively private information.
 
 You can also consider using some deterministic controls to prevent your AI from modifying your context files by making them read-only through file permissions. On Linux/Unix-like systems, the following can be done; cacls or Windows GUI file properties can be used on Windows side.
 

@@ -114,6 +114,7 @@ Expected behavior:
 - append possible changes to `ME.suggestions.md`
 - create a reviewable diff or pull request
 - clearly separate observed patterns from confirmed user preferences
+- when interactions with the user can be used to update their context markdown files, provide the suggestions and ask the user "should I add suggestions to your context card to ME.suggestions.md?"
 
 Avoid:
 - overwriting `ME.md` without confirmed user review
