@@ -1,4 +1,4 @@
-# Personal Context Cards (ME.md)
+# Personal Context Cards for AI Agents (ME.md)
 
 ---
 
